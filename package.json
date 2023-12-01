@@ -1,0 +1,14 @@
+{
+  "name": "vivid-randomization",
+  "version": "1.0.0",
+  "description": "Randomizer for proving fair repartition of Vivid curated collections",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pierrot_tech",
+  "license": "MIT",
+  "dependencies": {
+    "seedrandom": "^3.0.5"
+  }
+}
