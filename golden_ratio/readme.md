@@ -8,7 +8,7 @@ The random number that will be used will be determined by a seed random number g
 
 The seed that will be used will be the blockhash of an announced Bitcoin block. This ensure that the seed is random since there is no possibility for us to know the blockhash in advance nor to influence the blockhash of a certain block.
 
-Please check (Twitter/X)[https://twitter.com/vivid_ordinals] or (Discord)[discord.gg/g6GM8Jd2] for the block number.
+Please check [Twitter/X](https://twitter.com/vivid_ordinals) or [Discord](discord.gg/g6GM8Jd2) for the block number.
 
 
 
