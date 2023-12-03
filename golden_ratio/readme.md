@@ -10,5 +10,12 @@ The seed that will be used will be the blockhash of an announced Bitcoin block. 
 
 Please check [Twitter/X](https://twitter.com/vivid_ordinals) or [Discord](https://discord.gg/g6GM8Jd2) for the block number.
 
+Please check [this Google Sheet](https://docs.google.com/spreadsheets/d/1EGQc-NZJFymYwhv18y1MiX229UfI5oQRKa1rHU-Kzb0/edit?usp=sharing) to see what is your final id.
 
+
+## Example
+
+With block 819580, the blockhash is: 0000000000000000000092519d5011f4ea65416bec2886769d76de65ac064e69
+
+The resulting shift would be 114.
 
