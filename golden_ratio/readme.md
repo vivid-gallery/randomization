@@ -12,6 +12,9 @@ Please check [Twitter/X](https://twitter.com/vivid_ordinals) or [Discord](https:
 
 Please check [this Google Sheet](https://docs.google.com/spreadsheets/d/1EGQc-NZJFymYwhv18y1MiX229UfI5oQRKa1rHU-Kzb0/edit?usp=sharing) to see what is your final id.
 
+EDIT: The chosen block was 819726, with blockchash 0000000000000000000028e081c24aeea8890a89dea3bf82b3e585784ca063cd [check here](https://mempool.space/block/0000000000000000000028e081c24aeea8890a89dea3bf82b3e585784ca063cd)
+
+The resulting shift is 296.
 
 ## Example
 
