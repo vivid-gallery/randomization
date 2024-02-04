@@ -11,7 +11,7 @@ fs.createReadStream("./deus_ex_machina/addresses.csv")
         addresses.push(row.addresses);
     })
     .on('end', () => {
-        const generator = seedrandom("");
+        const generator = seedrandom("000000000000000000024896fc16aac4dfcace4b4e395e709f873c8180b71aaa");
 
         let randomAddresses = [];
         const addressesLength = addresses.length;
