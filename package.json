@@ -9,6 +9,7 @@
   "author": "pierrot_tech",
   "license": "MIT",
   "dependencies": {
+    "csv-parser": "^3.0.0",
     "seedrandom": "^3.0.5"
   }
 }
