@@ -27,8 +27,9 @@ fs.createReadStream("./deus_ex_machina/addresses.csv")
         randomAddresses.forEach((address, index) => {
             const id = `9119da1b4289dae536b15c0efe4b68503194097107412f60489c68e97b484434i${index}`;
             if (!addressesWithIds[address]) {
-                addressesWithIds[address] = { ordinals: [] }; 
+                addressesWithIds[address] = { ordinals: [], presales:0 }; 
             }
+            addressesWithIds[address].presales++; 
             addressesWithIds[address].ordinals.push(id); 
         });
 

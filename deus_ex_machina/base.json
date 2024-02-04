@@ -415,9 +415,9 @@
     "ordinals": [],
     "presales": 2
   },
-  "bc1qemfucmdmyac59knhzmlezeuaxyh8353x296e69": {
+  "bc1phvd2cell3gtqwgjckmpfkfmmn6dktjaunvuugjsgry8ut02rtmts45kx49": {
     "ordinals": [],
-    "presales": 121
+    "presales": 1
   },
   "bc1pvk45ps6zqjn8a3hqt8xyc9tc8870kjmu82r2vd3gk9qdav0th6jqchnq6d": {
     "ordinals": [],
@@ -503,6 +503,10 @@
     "ordinals": [],
     "presales": 10
   },
+  "bc1qemfucmdmyac59knhzmlezeuaxyh8353x296e69": {
+    "ordinals": [],
+    "presales": 120
+  },
   "bc1pcfzhmf59mw5v9m2kcnweus6pm86r73trt3nayqqxn7qhacp892gsv62693": {
     "ordinals": [],
     "presales": 1
@@ -539,8 +543,12 @@
     "ordinals": [],
     "presales": 1
   },
+  "bc1p7xhuj6y5djjwapylvewsrgvd4scp8zfcf04hw3lmdckayaprlw0srng9jm": {
+    "ordinals": [],
+    "presales": 1
+  },
   "bc1p5qq6vu0r6446uhzvrkwavrnfxkx0svke7hqvvmx5x9x42um40c8qy3f8vx": {
     "ordinals": [],
-    "presales": 17
+    "presales": 16
   }
 }
