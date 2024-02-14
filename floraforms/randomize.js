@@ -3,7 +3,7 @@ const path = require("path");
 const seedrandom = require("seedrandom");
 
 
-const RESERVE_FOR_PRESALE = 400
+const RESERVE_FOR_PRESALE = 600
 
 const batches = [
     {
