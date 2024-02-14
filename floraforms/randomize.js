@@ -57,7 +57,7 @@ let ids = []
 let presaleIds = []
 let launchIds = []
 
-const generator = seedrandom("0");
+const generator = seedrandom("00000000000000000003a4e4d367a836b32a229a7c1d023ddedcf265e4993c0a");
 
 for(const batch of batches){
 
