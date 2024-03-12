@@ -24,7 +24,7 @@ fs.createReadStream(path.join(__dirname, 'addresses.csv'))
         }
     })
     .on('end', () => {
-        const generator = seedrandom("REPLACE WITH HASH OF CHOSEN BLOCK");
+        const generator = seedrandom("00000000000000000001ffaf30b46acdf5e38fcacea9afdec9eccb82d62b81d2");
 
         let randomAddresses = [];
         const addressesLength = addresses.length;
