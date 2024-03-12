@@ -28,7 +28,7 @@ By making the inputs of our algorithm, public we guarantee that we cannot alter 
 
 Everything is public and available in this repository before the distribution process.
 
-Results are also available on https://app.vivid.gallery
+Results are also available on https://app.vivid.gallery/distribution
 
 
 
