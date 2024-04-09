@@ -7,7 +7,7 @@ let addresses = [];
 const batches = [
     {
         id:"5779f4798734100c9d9271c73370c6df99d80394cc74d683941fbea89da46b94",
-        amount:300,
+        amount:297,
     }
 ]
 
@@ -20,7 +20,7 @@ fs.createReadStream(path.join(__dirname, 'addresses.csv'))
         }
     })
     .on('end', () => {
-        const generator = seedrandom("");
+        const generator = seedrandom("000000000000000000026a14f4970a0e8200af25e0bb88464d911a2c1d237ec6");
 
         let randomAddresses = [];
         const addressesLength = addresses.length;
@@ -47,7 +47,7 @@ fs.createReadStream(path.join(__dirname, 'addresses.csv'))
                 currentOffset += batches[i].amount;
             }
 
-            id = `${batches[currentBatch].id}i${index - currentOffset}`;
+            id = `${batches[currentBatch].id}i${index - currentOffset+3}`;
 
             if (!addressesWithIds[address]) {
                 addressesWithIds[address] = { ordinals: [], presales:0 }; 
