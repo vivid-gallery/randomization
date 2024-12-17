@@ -6,10 +6,6 @@ const path = require("path");
 let addresses = [];
 const batches = [
     {
-        id:"6dd41ac917b8e5e03e341d4da6e903b3dd4cb56cde6f3cf6aea726fdcfc74682",
-        amount: 6
-    },
-    {
         id:"9f08168dc9f8433c1d8e53226524de959ea9cdee497809831716b4f212085984",
         amount:113,
     }
