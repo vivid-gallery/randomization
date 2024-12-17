@@ -20,7 +20,7 @@ fs.createReadStream(path.join(__dirname, 'addresses.csv'))
         }
     })
     .on('end', () => {
-        const generator = seedrandom("HASH OF SELECT BLOCK");
+        const generator = seedrandom("00000000000000000001b62c656b095f1a9c4f4b9f4b3d87b9f7865e3fd8cd1b");
 
         let randomAddresses = [];
         const addressesLength = addresses.length;
@@ -47,7 +47,7 @@ fs.createReadStream(path.join(__dirname, 'addresses.csv'))
                 currentOffset += batches[i].amount;
             }
 
-            id = `${batches[currentBatch].id}i${index - currentOffset+3}`;
+            id = `${batches[currentBatch].id}i${index - currentOffset}`;
 
             if (!addressesWithIds[address]) {
                 addressesWithIds[address] = { ordinals: [], presales:0 }; 
