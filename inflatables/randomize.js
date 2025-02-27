@@ -20,7 +20,7 @@ fs.createReadStream(path.join(__dirname, 'addresses.csv'))
         }
     })
     .on('end', () => {
-        const generator = seedrandom("BLOCKHASH of block 885550");
+        const generator = seedrandom("00000000000000000000778eb56a02c4d66ccca4744d831edfd34931e16f5462");
 
         let randomAddresses = [];
         const addressesLength = addresses.length;
